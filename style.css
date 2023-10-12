@@ -1,0 +1,287 @@
+/* header part */
+.logo {
+    width: 120px;
+    margin-left: 50px;
+    margin-top: 4px;
+}
+
+.header-class {
+    display: flex;
+    /*to place block elements in same line */
+    justify-content: space-between;
+    /*to align  one item on left and one item on right */
+    align-items: center;
+}
+
+.navlinks {
+    display: flex;
+    margin-right: 23px;
+    list-style-type: none;
+}
+
+.links {
+    text-decoration: none;
+    margin-left: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.links:hover {
+    color: red;
+}
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#home {
+    margin-top: 98px;
+}
+
+.title {
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.title-h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.secname {
+    color: orange;
+}
+
+.download {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.images {
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0px;
+    right: 30px;
+}
+
+.images img {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover #canvas {
+    bottom: 70px;
+
+}
+
+.images:hover #coatgirl {
+    left: 40%;
+
+}
+
+/* about section */
+#about {
+    margin-top: 200px;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.heading span {
+    color: green;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    gap: 2rem;
+}
+
+.about-img img {
+    width: 70%;
+}
+
+.about-details {
+    font-size: 18px;
+    text-align: justify;
+}
+
+#head h2 {
+    margin-left: 45%;
+}
+
+#head h3 {
+    color: green;
+    margin-left: 45%;
+    margin-top: -10px;
+}
+
+
+/* .poll-container{
+    width:300px;
+    margin: 0 auto;
+}
+.poll-option{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: 10px;
+}
+.poll-option input[type="radio"]{
+    margin-right: 10px;
+    appearance: none;
+    -webkit-appearance:none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+
+} 
+.poll-option input[type="radio]:checked{
+    background color:#007bff;
+}
+.poll-option label{
+    font-size:16px;
+    cursor:pointer;
+} */
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1ftr);
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.progress-bar {
+    margin-left: 70px;
+    padding-left: 40px;
+    margin-right: 711px;
+}
+
+.bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 85%;
+}
+
+.base-bar {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.html-bar {
+    background-color: orange;
+    width: 95%;
+}
+
+.css-bar {
+    background-color: orange;
+    width: 88%;
+}
+
+.js-bar {
+    background-color: orange;
+    width: 89%;
+}
+
+.react-bar {
+    background-color: orange;
+    width: 85%;
+}
+
+.angular-bar {
+    background-color: orange;
+    width: 80%;
+}
+
+.div-img {
+    width: 66%;
+    padding-left: 837px;
+    margin-top: -400px;
+}
+
+#contact {
+    margin-top: 100px;
+}
+
+.icon-set {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    align-items: center;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.icon i {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+.icon:hover {
+    background-image: linear-gradient(to bottom right, yellow, red);
+    animation: shake 1s;
+}
+
+@keyframes shake {
+    10% {
+        transform: rotate(15deg);
+    }
+
+    20% {
+        transform: rotate(-15deg);
+    }
+}
+.footer{
+    margin-top: 100px;
+    text-align: center;
+}
+.up-arrow{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, yellow,red);
+    margin: 0px 10px 50px 0px;
+    
+}
+.up-arrow i{
+    margin-top: 12px;
+    margin-left: 15px;
+    font-size: 30px;
+}
